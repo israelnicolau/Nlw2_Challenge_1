@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proffy | Sua plataforma de estudos online</title>
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href = "/styles/main.css">
+    <link rel="stylesheet" href="/styles/partials/header.css">
+    <link rel="stylesheet" href="/styles/partials/page-study.css">
+    
+<body id="page-study">
+    <div id="container">
+        <header class="page-header">
+            <div class = "header-content">
+                <p id="psuc"><strong>Aula cadastrada com sucesso!</strong><br>Voltando para a tela inicial</p></p>
+            </div>
+        </header>
+     
+    </body>
+<script>
+    const urlP= new URLSearchParams(window.location.search)
+    const subject = urlP.get("subject")
+    const weekday = urlP.get("weekday")
+    const time = urlP.get("time")
+    setTimeout(() => {window.location.href=`/study?subject=${subject}&weekday=${weekday}&time=${time}`
+    }, 3000);
+
+</script>
+
+
+
+</html> -->
