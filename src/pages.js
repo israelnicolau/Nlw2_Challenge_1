@@ -17,7 +17,6 @@ function pageLanding(req, res){
     //converter horas em minutos
     const timeToMinutes = convertHoursToMinutes(filters.time)
 
-    console.log('Não tem campos vazios')
 
     const query = `
         SELECT classes.*, proffys.*

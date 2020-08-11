@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
 
     <script src="/scripts/addField.js" defer></script>
+    <!-- <script src="/scripts/delField.js" defer></script> -->
 </head>
 <body id= "page-give-classes">
 
@@ -91,6 +92,7 @@
                       <button type="button" id="add-time">+ Novo horário </button>
                   </legend>
                   <div class="schedule-item">
+                     
                       <div class="select-block">
                           <label for="weekday">Dia da semana</label>
                           <select name="weekday[]" required>
@@ -112,7 +114,7 @@
                         <label for="time_to">Até</label>
                         <input type="time"name="time_to[]"required>
                     </div>
-
+                  <div id="divdel"> <button type="button" id="del"><img src="/images/icons/smile.svg" alt="Excluir"></button></div>
                   </div>
 
                   
